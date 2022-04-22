@@ -1,0 +1,119 @@
+// main: ../style.less
+
+.customers {
+    overflow: hidden;
+}
+
+.customers__item {
+    display: flex;
+    overflow: hidden;
+}
+
+.customers__slider {
+    height: 675px;
+    overflow: hidden;
+}
+
+.customers__slider.slick-initialized {
+    height: auto;
+}
+
+
+.customers__photo {
+    width: 35%;
+    height: 675px;
+    position: relative;
+
+}
+
+.customers__img {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    z-index: 1;
+    transform: translateY(-50%);
+
+}
+
+.customers__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 77px;
+    width: 45%;
+
+}
+
+.customers__title {
+    font-family: "Arca Majora 3", sans-serif;
+    font-weight: 900;
+    font-size: 47px;
+
+}
+
+
+.slick-dots {
+    display: flex;
+    width: 61%;
+
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+    position: absolute;
+    bottom: 378px;
+    right: 0;
+    z-index: 2;
+
+    button {
+        width: 27px;
+        height: 27px;
+        background: url(../img/Forma\ 1.svg);
+        border: 0;
+        padding: 0;
+        opacity: 0.5;
+        font-size: 0;
+        cursor: pointer;
+    }
+}
+
+.slick-dots li {
+    margin: 0 4px;
+}
+
+.slick-dots .slick-active button {
+    opacity: 1;
+    background: url(../img/icon/but\ next.svg);
+}
+
+.customers__text {
+    padding-top: 54px;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #707070;
+}
+
+.customers__data {
+    color: #707070;
+}
+
+.customers__name {
+    font-family: "Poppins", sans-serif;
+    font-size: 22px;
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.arrows {
+    padding-top: 91px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.arrows2 {
+
+    display: flex;
+    justify-content: space-between;
+}
